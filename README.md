@@ -114,6 +114,6 @@
 ![image](image/download.jpg)
 
 # Commit
-![commit](image/commit.png)
+![commitIMG](image/commit.png)
 
 
