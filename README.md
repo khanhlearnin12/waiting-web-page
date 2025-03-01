@@ -1,9 +1,11 @@
 # Waiting-web-page
-Humor-CLassic-Dessign  
-### 題目: 
-
+### 題目: 當機等候網頁
 <img src="https://github.com/user-attachments/assets/8bbda675-c993-46d9-a083-cbc4fbfcec3a" width="500">
-<img src="https://github.com/user-attachments/assets/33d44293-73e2-4516-b61f-c7ee2d8d2cba" width="500">
+### 題目: 當機等候網頁
+我的設計理念，如何當等候目標網站的內容或是風格?
+- 設計理念: 簡單
+- 目標跟風格: 幽默跟明瞭
+<img src="https://github.com/user-attachments/assets/8bbda675-c993-46d9-a083-cbc4fbfcec3a" width="500">
 
 # HTML
 <img src="https://github.com/user-attachments/assets/5d7eca9c-63b9-4b97-bc6c-4d48556ed245" width="200" align='right'>
@@ -109,8 +111,9 @@ Humor-CLassic-Dessign
             }
 ```
 # Picture
-<img src="image/download.jpg" width="200%" height="200%">
+![image](image/download.jpg)
 
 # Commit
+![commit]()
 
 
