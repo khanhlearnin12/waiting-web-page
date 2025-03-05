@@ -77,6 +77,15 @@
                 transform: translateY(-10px);
             }
         }
+
+        /*botton*/
+        .catch-me {
+            padding: 5px 10px;
+            font-size: 16px;
+            font-family: 'Peace Sans', sans-serif;
+            cursor: pointer;
+            position: absolute;
+        }
     </style>
 </head>
 <body>
@@ -85,6 +94,26 @@
     <h1 class="brokenpage">THE PAGE IS <br>BROKEN</h1>
     <p class="promise">(We will be back soon)</p>
     <img src="image/download.jpg" alt="pandameme" class="panda">
+    <button class="catch-me" id="catch-me">Close it by press this button</button>
+    <script>
+        const button = document.getElementById('catch-me');
+        let hoverCount = 0;
+
+        button.addEventListener('mouseover', () => {
+            if (hoverCount < 5) {
+                const x = Math.random() * window.innerWidth;
+                const y = Math.random() * window.innerHeight;
+                button.style.left = `${x}px`;
+                button.style.top = `${y}px`;
+                hoverCount++;
+            }
+        });
+
+        // close page
+        button.addEventListener('click', () => {
+            window.close();
+        });
+    </script>
 </div>
 </body>
 </html>
