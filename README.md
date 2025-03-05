@@ -88,6 +88,39 @@
       margin-top: -1px;
       position: relative;
   }
+
+  /*botton*/
+        .catch-me {
+            padding: 5px 10px;
+            font-size: 16px;
+            font-family: 'Peace Sans', sans-serif;
+            cursor: pointer;
+            position: absolute;
+        }
+```
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlKso-FiHbcar_gMR70gMghvAD3mub8z8UmQ&s" width="200" align='right'>
+
+#Java 
+- 幽默的按鈕: 給你5次不能按鈕 ,按鈕在你開的網頁隨即顯示.
+- 網頁關閉的按鈕: 當你按到按鈕的時候, 網頁直接關閉.
+```Java
+const button = document.getElementById('catch-me')
+        let hoverCount = 0;
+
+        button.addEventListener('mouseover', () => {
+            if (hoverCount < 5) {
+                const x = Math.random() * window.innerWidth;
+                const y = Math.random() * window.innerHeight;
+                button.style.left = `${x}px`;
+                button.style.top = `${y}px`;
+                hoverCount++;
+            }
+        });
+
+        // close page
+        button.addEventListener('click', () => {
+            window.close();
+        });
 ```
 
 # Animation
